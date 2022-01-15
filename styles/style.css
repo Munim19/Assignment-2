@@ -281,7 +281,7 @@ footer span{
 ------------------------------------------ */
 
 @media screen and (max-width: 1366px), 
-       screen and (max-height: 768px) {
+       screen and (max-height: 740px) {
    .one{
        width: 74%;
    }
