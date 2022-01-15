@@ -280,8 +280,8 @@ footer span{
 /* --------For Laptop Device ----------------
 ------------------------------------------ */
 
-@media screen and (max-width: 1326px), 
-       screen and (max-height: 270px) {
+@media screen and (max-width: 1366px), 
+       screen and (max-height: 768px) {
    .one{
        width: 74%;
    }
