@@ -1,0 +1,125 @@
+body{
+    font-family: 'Bitter', serif;
+font-family: 'Lobster', cursive;
+
+}
+.tittle{
+    margin: 60px 7%;
+    font-size: 130%;
+}
+.new{
+    margin: 60px 10%;
+
+}
+section{
+    display: flex;
+}
+.camera{
+    padding-left: 25%;
+   
+}
+.first-line{
+    margin-top: 7%; 
+}
+button{
+    background-color: #E02C6D;
+    color: white;
+    width: 196px;
+height: 44px;
+left: 120px;
+top: 511px;
+border-radius: 41px;
+}
+.center{
+    text-align: center;
+}
+.pop{
+    text-align: center;
+    margin-bottom: 7%;
+}
+.one img{
+    width: 300px;
+height: 256px;
+margin-left: 2.5%;
+}
+.one{
+    box-shadow: 5px 7px 20px black;
+    width: 52%;
+    height: 476px;
+   margin-left: 24%;
+   margin-right: 24%;
+   margin-bottom: 10%;
+  
+   padding-left: 1.5%;
+   
+   padding-top: 20px;
+   background-color: #E07C24;
+   border-radius: 20px;
+}
+.collection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   
+}
+.content{
+    padding-left: 15px;
+}
+.see{
+    
+  margin-left: 88%;
+ 
+}
+.extra{
+    text-align: center;
+    margin-bottom: 45px;
+}
+.extra a{
+    text-decoration: none;
+    font-size: 24px;
+    background: linear-gradient(tomato, yellow);
+    padding: 10px 10px;
+    border-radius: 10px;
+    
+}
+.extra h3{
+    font-size: 25px;
+}
+footer{
+    background-color: darkblue;
+    color: whitesmoke;
+    text-align: center;
+   
+    
+    padding-top: 35px;
+    padding-bottom: 40px;
+}
+footer h3{
+    font-size: 29PX;
+}
+footer h4, p{
+    font-size: 14px;
+
+}
+footer span{
+    padding-right: 10px;
+
+}
+.extra-use
+    {
+        
+        transition:all 0.3s ease;
+        background-color: cornflowerblue;
+        margin-bottom: auto;
+        margin-right: -130px;
+        padding-left: 10px;
+
+    }
+    
+    .extra-use:hover
+    {
+        
+        transform: scale(0.8);
+        
+    }
+
+
