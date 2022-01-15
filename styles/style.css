@@ -1,15 +1,41 @@
+/* fonts */
+
 body{
     font-family: 'Bitter', serif;
 font-family: 'Lobster', cursive;
 
 }
+
+/* ------------------Header & Main line start----------------
+---------------------------------------------------------- */
+.menu ul{
+    display: flex;
+   list-style: none;
+   
+ 
+}
+.menu{
+    float: right;
+    margin-top: -80px;
+}
+.menu li{
+    padding: 0 10px;
+    float: right;
+}
 .tittle{
     margin: 60px 7%;
     font-size: 130%;
+    
 }
 .new{
     margin: 60px 10%;
 
+}
+.new p{
+    font-size: 15px;
+}
+.start{
+    font-size: 3em;
 }
 section{
     display: flex;
@@ -19,8 +45,12 @@ section{
    
 }
 .first-line{
-    margin-top: 7%; 
+    margin-top: 3%; 
 }
+
+/* ------------button --------------------
+--------------------------------------- */
+
 button{
     background-color: #E02C6D;
     color: white;
@@ -30,9 +60,12 @@ left: 120px;
 top: 511px;
 border-radius: 41px;
 }
-.center{
-    text-align: center;
-}
+
+/* ---------------Collection start-------------------
+-------------------------------------------------- */
+
+
+
 .pop{
     text-align: center;
     margin-bottom: 7%;
@@ -64,11 +97,17 @@ margin-left: 2.5%;
 .content{
     padding-left: 15px;
 }
+
+/* ---------------------------See more part start--------------------------------
+------------------------------------------------------------------------------ */
 .see{
     
   margin-left: 88%;
  
 }
+
+/* --------------------------Extra part start-----------------------------
+----------------------------------------------------------------------- */
 .extra{
     text-align: center;
     margin-bottom: 45px;
@@ -84,6 +123,9 @@ margin-left: 2.5%;
 .extra h3{
     font-size: 25px;
 }
+
+/* ------------------------footer start ----------------------
+----------------------------------------------------------- */
 footer{
     background-color: darkblue;
     color: whitesmoke;
@@ -104,6 +146,10 @@ footer span{
     padding-right: 10px;
 
 }
+
+/* ----------------Transition, Transform & Hover Start -----------------------
+--------------------------------------------------------------------------- */
+
 .extra-use
     {
         
@@ -112,6 +158,7 @@ footer span{
         margin-bottom: auto;
         margin-right: -130px;
         padding-left: 10px;
+        
 
     }
     
@@ -121,7 +168,11 @@ footer span{
         transform: scale(0.8);
         
     }
+/*----------------------
+   Media Queries 
+ ----------------------*/
 
+ /* For mobile devices */
 
 @media (min-width :0px) and (max-width :576px){
     body{
@@ -171,14 +222,18 @@ footer span{
         height: 414px;
     }
 }
+
+/* For tablet devices */
+
 @media (min-width :577px) and (max-width :768px){
     body{
         width: auto;
     }
     .collection{
         grid-template-columns: repeat(1, 1fr);
-        
+
     }
+    
     .one{
       width: 58%;
     height: 476px;
